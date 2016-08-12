@@ -1,0 +1,83 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="EADDPage.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+         <!-- jQuery library -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+         <!-- Latest compiled JavaScript -->
+         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    My ASP.NET Application
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+        
+        <div class ="row"> 
+            <div class = "col-md-4">
+            <ul class="list-group">
+         
+          
+            <li class="list-group-item"><a href="#">Introduction To SQL</a></li>
+            <li class="list-group-item"><a href="#">SYNTAX</a></li>
+            <li class="list-group-item"><a href="select.aspx">SELECT</a></li>
+            <li class="list-group-item"><a href="#">DISTINCT</a></li>
+            <li class="list-group-item"><a href="#">WHERE</a></li>
+            <li class="list-group-item"><a href="#">AND OR</a></li>
+            <li class="list-group-item"><a href="#">ORDER BY</a></li>
+            <li class="list-group-item"><a href="#">INSERT INTO</a></li>
+            <li class="list-group-item"><a href="#">Update</a></li>
+            <li class="list-group-item"><a href="Delete.aspx">Delete</a></li>
+                   
+          
+</ul>
+            </div>
+            <div class = "col-md-8">
+
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        </div>
+
+    </div>
+    <div class="footer">
+      </div>  
+    </div>
+    </form>
+</body>
+</html>

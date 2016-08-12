@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ASPNetDB-Web.config Connection String" description="ASPNetDB Connection String used in web.config by the application to access the database." defaultvalue="Provider=Microsoft.Jet.OLEDB.4.0;Ole DB Services=-4;Data Source=|DataDirectory|\ASPNetDB.mdb" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ASPNetDB']/@connectionString" />
+  </parameter>
+</parameters>
