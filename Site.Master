@@ -54,15 +54,15 @@
             <ul class="list-group">
          
           
-            <li class="list-group-item"><a href="#">Introduction To SQL</a></li>
-            <li class="list-group-item"><a href="#">SYNTAX</a></li>
-            <li class="list-group-item"><a href="select.aspx">SELECT</a></li>
-            <li class="list-group-item"><a href="#">DISTINCT</a></li>
-            <li class="list-group-item"><a href="#">WHERE</a></li>
-            <li class="list-group-item"><a href="#">AND OR</a></li>
-            <li class="list-group-item"><a href="#">ORDER BY</a></li>
-            <li class="list-group-item"><a href="#">INSERT INTO</a></li>
-            <li class="list-group-item"><a href="#">Update</a></li>
+            <li class="list-group-item"><a href="IntroToSQL.aspx">Introduction To SQL</a></li>
+            <li class="list-group-item"><a href="Syntax.aspx">Syntax</a></li>
+            <li class="list-group-item"><a href="select.aspx">Select</a></li>
+            <li class="list-group-item"><a href="Distinct.aspx">Distinct</a></li>
+            <li class="list-group-item"><a href="Where.aspx">Where</a></li>
+            <li class="list-group-item"><a href="AndOr.aspx">And & Or</a></li>
+            <li class="list-group-item"><a href="OrderBy.aspx">Order By</a></li>
+            <li class="list-group-item"><a href="InsertInto.aspx">Insert Into</a></li>
+            <li class="list-group-item"><a href="Update.aspx">Update</a></li>
             <li class="list-group-item"><a href="Delete.aspx">Delete</a></li>
                    
           

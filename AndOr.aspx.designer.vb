@@ -11,16 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class WebForm5
-
-    '''<summary>
-    '''UnitIDHF control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents UnitIDHF As Global.System.Web.UI.WebControls.HiddenField
+Partial Public Class AndOr
 
     '''<summary>
     '''DisplayID control.
@@ -59,6 +50,15 @@ Partial Public Class WebForm5
     Protected WithEvents TaskTextBox As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''TaskSubmitButton control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents TaskSubmitButton As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
     '''Feedback1 control.
     '''</summary>
     '''<remarks>
@@ -68,38 +68,20 @@ Partial Public Class WebForm5
     Protected WithEvents Feedback1 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''TaskTextBox0 control.
+    '''PreviousPageButton control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TaskTextBox0 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents PreviousPageButton As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Feedback2 control.
+    '''NextPageButton control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Feedback2 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''BackButton control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents BackButton As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''NextButton control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents NextButton As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents NextPageButton As Global.System.Web.UI.WebControls.Button
 End Class

@@ -88,9 +88,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="AndOr.aspx" />
     <Content Include="App_Data\ASPNetDB.mdb" />
     <Content Include="App_Data\EADDProject.mdb" />
-    <Content Include="BeginAssessment.aspx" />
     <Content Include="css\animate.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\cards.css" />
@@ -99,6 +99,8 @@
     <Content Include="css\owl.carousel.min.css" />
     <Content Include="css\owl.theme.default.min.css" />
     <Content Include="css\style.css" />
+    <Content Include="Delete.aspx" />
+    <Content Include="Distinct.aspx" />
     <Content Include="fonts\bootstrap\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\icomoon\icomoon.svg" />
     <Content Include="images\full_1.jpg" />
@@ -127,6 +129,8 @@
     <Content Include="images\person_7.jpg" />
     <Content Include="images\person_8.jpg" />
     <Content Include="images\person_9.jpg" />
+    <Content Include="InsertInto.aspx" />
+    <Content Include="IntroToSQL.aspx" />
     <Content Include="js\images\full_1.jpg" />
     <Content Include="js\images\full_2.jpg" />
     <Content Include="js\images\full_3.jpg" />
@@ -167,13 +171,17 @@
     <Content Include="js\respond.min.js" />
     <Content Include="js\wow.min.js" />
     <Content Include="Login.aspx" />
+    <Content Include="OrderBy.aspx" />
     <Content Include="Register2.aspx" />
+    <Content Include="Select.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Syntax.aspx" />
+    <Content Include="Update.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -184,7 +192,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Register1.aspx" />
-    <Content Include="LevelsPage.aspx" />
+    <Content Include="Where.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.designer.vb">
@@ -194,11 +202,11 @@
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="BeginAssessment.aspx.designer.vb">
-      <DependentUpon>BeginAssessment.aspx</DependentUpon>
+    <Compile Include="AndOr.aspx.designer.vb">
+      <DependentUpon>AndOr.aspx</DependentUpon>
     </Compile>
-    <Compile Include="BeginAssessment.aspx.vb">
-      <DependentUpon>BeginAssessment.aspx</DependentUpon>
+    <Compile Include="AndOr.aspx.vb">
+      <DependentUpon>AndOr.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.vb">
@@ -208,8 +216,36 @@
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Delete.aspx.designer.vb">
+      <DependentUpon>Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Delete.aspx.vb">
+      <DependentUpon>Delete.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Distinct.aspx.designer.vb">
+      <DependentUpon>Distinct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Distinct.aspx.vb">
+      <DependentUpon>Distinct.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="InsertInto.aspx.designer.vb">
+      <DependentUpon>InsertInto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsertInto.aspx.vb">
+      <DependentUpon>InsertInto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="IntroToSQL.aspx.designer.vb">
+      <DependentUpon>IntroToSQL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IntroToSQL.aspx.vb">
+      <DependentUpon>IntroToSQL.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Login.aspx.designer.vb">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -237,11 +273,25 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="OrderBy.aspx.designer.vb">
+      <DependentUpon>OrderBy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderBy.aspx.vb">
+      <DependentUpon>OrderBy.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Register2.aspx.designer.vb">
       <DependentUpon>Register2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Register2.aspx.vb">
       <DependentUpon>Register2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Select.aspx.designer.vb">
+      <DependentUpon>Select.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Select.aspx.vb">
+      <DependentUpon>Select.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
@@ -258,11 +308,25 @@
       <DependentUpon>Register1.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="LevelsPage.aspx.designer.vb">
-      <DependentUpon>LevelsPage.aspx</DependentUpon>
+    <Compile Include="Syntax.aspx.designer.vb">
+      <DependentUpon>Syntax.aspx</DependentUpon>
     </Compile>
-    <Compile Include="LevelsPage.aspx.vb">
-      <DependentUpon>LevelsPage.aspx</DependentUpon>
+    <Compile Include="Syntax.aspx.vb">
+      <DependentUpon>Syntax.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Update.aspx.designer.vb">
+      <DependentUpon>Update.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Update.aspx.vb">
+      <DependentUpon>Update.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Where.aspx.designer.vb">
+      <DependentUpon>Where.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Where.aspx.vb">
+      <DependentUpon>Where.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>

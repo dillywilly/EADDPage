@@ -6,7 +6,135 @@ EADDPage
 </name>
 </assembly>
 <members>
-<member name="F:EADDPage.Login1.form1">
+<member name="F:EADDPage.Where.DisplayID">
+	<summary>
+DisplayID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Where.ContentID">
+	<summary>
+ContentID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Where.TaskLabelID">
+	<summary>
+TaskLabelID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Where.TaskTextBox">
+	<summary>
+TaskTextBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Where.TaskSubmitButton">
+	<summary>
+TaskSubmitButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Where.Feedback1">
+	<summary>
+Feedback1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Where.PreviousPageButton">
+	<summary>
+PreviousPageButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Where.NextPageButton">
+	<summary>
+NextPageButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.InsertInto.DisplayID">
+	<summary>
+DisplayID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.InsertInto.ContentID">
+	<summary>
+ContentID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.InsertInto.TaskLabelID">
+	<summary>
+TaskLabelID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.InsertInto.TaskTextBox">
+	<summary>
+TaskTextBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.InsertInto.TaskSubmitButton">
+	<summary>
+TaskSubmitButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.InsertInto.Feedback1">
+	<summary>
+Feedback1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.InsertInto.PreviousPageButton">
+	<summary>
+PreviousPageButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.InsertInto.NextPageButton">
+	<summary>
+NextPageButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Login1.form1">
 	<summary>
 form1 control.
 </summary>
@@ -55,6 +183,134 @@ To modify move field declaration from designer file to code-behind file.
  Module used to define the properties that are available in the My Namespace for Web projects.
  </summary>
 	<remarks></remarks>
+</member><member name="F:EADDPage._Select.DisplayID">
+	<summary>
+DisplayID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage._Select.ContentID">
+	<summary>
+ContentID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage._Select.TaskLabelID">
+	<summary>
+TaskLabelID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage._Select.TaskTextBox">
+	<summary>
+TaskTextBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage._Select.TaskSubmitButton">
+	<summary>
+TaskSubmitButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage._Select.Feedback1">
+	<summary>
+Feedback1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage._Select.PreviousPageButton">
+	<summary>
+PreviousPageButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage._Select.NextPageButton">
+	<summary>
+NextPageButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.AndOr.DisplayID">
+	<summary>
+DisplayID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.AndOr.ContentID">
+	<summary>
+ContentID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.AndOr.TaskLabelID">
+	<summary>
+TaskLabelID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.AndOr.TaskTextBox">
+	<summary>
+TaskTextBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.AndOr.TaskSubmitButton">
+	<summary>
+TaskSubmitButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.AndOr.Feedback1">
+	<summary>
+Feedback1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.AndOr.PreviousPageButton">
+	<summary>
+PreviousPageButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.AndOr.NextPageButton">
+	<summary>
+NextPageButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:EADDPage._Default.Beginbutton1">
 	<summary>
 Beginbutton1 control.
@@ -74,6 +330,14 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:EADDPage._Default.Beginbutton3">
 	<summary>
 Beginbutton3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.IntroToSQL.NextPageButton">
+	<summary>
+NextPageButton control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -143,7 +407,7 @@ SaveUserButton control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:EADDPage.Session.Site.Head1">
+</member><member name="F:EADDPage.Site.Head1">
 	<summary>
 Head1 control.
 </summary>
@@ -151,7 +415,7 @@ Head1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:EADDPage.Session.Site.HeadContent">
+</member><member name="F:EADDPage.Site.HeadContent">
 	<summary>
 HeadContent control.
 </summary>
@@ -159,7 +423,7 @@ HeadContent control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:EADDPage.Session.Site.Form1">
+</member><member name="F:EADDPage.Site.Form1">
 	<summary>
 Form1 control.
 </summary>
@@ -167,7 +431,7 @@ Form1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:EADDPage.Session.Site.HeadLoginView">
+</member><member name="F:EADDPage.Site.HeadLoginView">
 	<summary>
 HeadLoginView control.
 </summary>
@@ -175,7 +439,7 @@ HeadLoginView control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:EADDPage.Session.Site.NavigationMenu">
+</member><member name="F:EADDPage.Site.NavigationMenu">
 	<summary>
 NavigationMenu control.
 </summary>
@@ -183,9 +447,137 @@ NavigationMenu control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:EADDPage.Session.Site.MainContent">
+</member><member name="F:EADDPage.Site.MainContent">
 	<summary>
 MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Update.DisplayID">
+	<summary>
+DisplayID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Update.ContentID">
+	<summary>
+ContentID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Update.TaskLabelID">
+	<summary>
+TaskLabelID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Update.TaskTextBox">
+	<summary>
+TaskTextBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Update.TaskSubmitButton">
+	<summary>
+TaskSubmitButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Update.Feedback1">
+	<summary>
+Feedback1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Update.PreviousPageButton">
+	<summary>
+PreviousPageButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Update.NextPageButton">
+	<summary>
+NextPageButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.OrderBy.DisplayID">
+	<summary>
+DisplayID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.OrderBy.ContentID">
+	<summary>
+ContentID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.OrderBy.TaskLabelID">
+	<summary>
+TaskLabelID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.OrderBy.TaskTextBox">
+	<summary>
+TaskTextBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.OrderBy.TaskSubmitButton">
+	<summary>
+TaskSubmitButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.OrderBy.Feedback1">
+	<summary>
+Feedback1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.OrderBy.PreviousPageButton">
+	<summary>
+PreviousPageButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.OrderBy.NextPageButton">
+	<summary>
+NextPageButton control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -207,23 +599,7 @@ CreateUserWizard1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:EADDPage.BeginAssessment.form1">
-	<summary>
-form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:EADDPage.WebForm5.UnitIDHF">
-	<summary>
-UnitIDHF control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:EADDPage.WebForm5.DisplayID">
+</member><member name="F:EADDPage.Syntax.DisplayID">
 	<summary>
 DisplayID control.
 </summary>
@@ -231,7 +607,7 @@ DisplayID control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:EADDPage.WebForm5.ContentID">
+</member><member name="F:EADDPage.Syntax.ContentID">
 	<summary>
 ContentID control.
 </summary>
@@ -239,7 +615,7 @@ ContentID control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:EADDPage.WebForm5.TaskLabelID">
+</member><member name="F:EADDPage.Syntax.TaskLabelID">
 	<summary>
 TaskLabelID control.
 </summary>
@@ -247,7 +623,7 @@ TaskLabelID control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:EADDPage.WebForm5.TaskTextBox">
+</member><member name="F:EADDPage.Syntax.TaskTextBox">
 	<summary>
 TaskTextBox control.
 </summary>
@@ -255,7 +631,15 @@ TaskTextBox control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:EADDPage.WebForm5.Feedback1">
+</member><member name="F:EADDPage.Syntax.TaskSubmitButton">
+	<summary>
+TaskSubmitButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Syntax.Feedback1">
 	<summary>
 Feedback1 control.
 </summary>
@@ -263,33 +647,145 @@ Feedback1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:EADDPage.WebForm5.TaskTextBox0">
+</member><member name="F:EADDPage.Syntax.PreviousPageButton">
 	<summary>
-TaskTextBox0 control.
+PreviousPageButton control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:EADDPage.WebForm5.Feedback2">
+</member><member name="F:EADDPage.Syntax.NextPageButton">
 	<summary>
-Feedback2 control.
+NextPageButton control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:EADDPage.WebForm5.BackButton">
+</member><member name="F:EADDPage.Distinct.DisplayID">
 	<summary>
-BackButton control.
+DisplayID control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:EADDPage.WebForm5.NextButton">
+</member><member name="F:EADDPage.Distinct.ContentID">
 	<summary>
-NextButton control.
+ContentID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Distinct.TaskLabelID">
+	<summary>
+TaskLabelID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Distinct.TaskTextBox">
+	<summary>
+TaskTextBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Distinct.TaskSubmitButton">
+	<summary>
+TaskSubmitButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Distinct.Feedback1">
+	<summary>
+Feedback1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Distinct.PreviousPageButton">
+	<summary>
+PreviousPageButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Distinct.NextPageButton">
+	<summary>
+NextPageButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Delete.DisplayID">
+	<summary>
+DisplayID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Delete.ContentID">
+	<summary>
+ContentID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Delete.TaskLabelID">
+	<summary>
+TaskLabelID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Delete.TaskTextBox">
+	<summary>
+TaskTextBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Delete.TaskSubmitButton">
+	<summary>
+TaskSubmitButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Delete.Feedback1">
+	<summary>
+Feedback1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Delete.PreviousPageButton">
+	<summary>
+PreviousPageButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Delete.NextPageButton">
+	<summary>
+NextPageButton control.
 </summary>
 	<remarks>
 Auto-generated field.
