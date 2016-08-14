@@ -172,7 +172,9 @@
     <Content Include="js\wow.min.js" />
     <Content Include="Login.aspx" />
     <Content Include="OrderBy.aspx" />
+    <Content Include="QuizPage.aspx" />
     <Content Include="Register2.aspx" />
+    <Content Include="results.aspx" />
     <Content Include="Select.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
@@ -280,11 +282,25 @@
       <DependentUpon>OrderBy.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="QuizPage.aspx.designer.vb">
+      <DependentUpon>QuizPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuizPage.aspx.vb">
+      <DependentUpon>QuizPage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Register2.aspx.designer.vb">
       <DependentUpon>Register2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Register2.aspx.vb">
       <DependentUpon>Register2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="results.aspx.designer.vb">
+      <DependentUpon>results.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="results.aspx.vb">
+      <DependentUpon>results.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Select.aspx.designer.vb">

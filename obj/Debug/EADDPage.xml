@@ -6,7 +6,103 @@ EADDPage
 </name>
 </assembly>
 <members>
-<member name="F:EADDPage.Where.DisplayID">
+<member name="F:EADDPage.QuizPage.QuestionNumber">
+	<summary>
+QuestionNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.QuizPage.Question">
+	<summary>
+Question control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.QuizPage.Answerbox">
+	<summary>
+Answerbox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.QuizPage.SubmitButton">
+	<summary>
+SubmitButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.QuizPage.ContinueButton">
+	<summary>
+ContinueButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.QuizPage.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.QuizPage.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.QuizPage.testing1">
+	<summary>
+testing1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.QuizPage.testing2">
+	<summary>
+testing2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.QuizPage.testing3">
+	<summary>
+testing3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.QuizPage.ActualAnswer">
+	<summary>
+ActualAnswer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.QuizPage.number">
+	<summary>
+number control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:EADDPage.Where.DisplayID">
 	<summary>
 DisplayID control.
 </summary>
