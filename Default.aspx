@@ -40,43 +40,38 @@
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
    
-    <div class="container">
             <h2 class="style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Summary of SQL Levels</h2>
             <p class="style1">&nbsp;</p>
             <div class="well">
                 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo1">
-                    <div class="style1">
-                        Level 1</div>
+                   Level 1
                 </button>
-                <div id="demo1" class="style2">
+                <div id="demo1" class="collapse">
                     This Level seeks to answer questions such as What is SQL? What Can SQL do? It 
                     explains how can SQL is applied and covers introductory level of SQL syntax</div>
-                <asp:Button ID="Beginbutton1" runat="server" Text="Begin" 
-                    PostBackUrl="~/IntroToSQL.aspx" />
+                <asp:Button ID="Beginbutton1" runat="server" Text="Begin" PostBackUrl="~/IntroToSQL.aspx" />
                 <br />
                 <br />
             </div>
             <div class="well">
                 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo2">Level 2</button>
-                <div id="demo2" class="style2">
+                <div id="demo2" class="collapse">
                     This Level delves into deeper than the previous. It covers Tables, Keys, indexes, constraints and many other topics that are crucial in SQL knowledge development.
                 </div>
-                <asp:Button ID="Beginbutton2" runat="server" Text="Begin" 
-                    PostBackUrl="~/AndOr.aspx" />
+                <asp:Button ID="Beginbutton2" runat="server" Text="Begin" PostBackUrl="~/AndOr.aspx" />
                 <br />
                 <br />
             </div>
             <div class="well">
                 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo3">Level 3</button>
-                <div id="demo3" class="style2">
+                <div id="demo3" class="collapse">
                     This level covers the advanced functions and features are useful in the repertoire of an SQL programmer. 
                 </div>
-                <asp:Button ID="Beginbutton3" runat="server" Text="Begin" 
-                    PostBackUrl="~/InsertInto.aspx" />
+                <asp:Button ID="Beginbutton3" runat="server" Text="Begin" PostBackUrl="~/InsertInto.aspx" />
                 <br />
                 <br />
             </div>
-        </div>
+    
 				
 	<div class="fh5co-testimonial-style-2">
 			<div class="container">

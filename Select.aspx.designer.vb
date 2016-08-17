@@ -14,58 +14,58 @@ Option Explicit On
 Partial Public Class _Select
 
     '''<summary>
-    '''DisplayID control.
+    '''Response1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents DisplayID As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Response1 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''ContentID control.
+    '''Res1Label control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents ContentID As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Res1Label As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''TaskLabelID control.
+    '''Response2 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TaskLabelID As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Response2 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''TaskTextBox control.
+    '''Res2Label control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TaskTextBox As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents Res2Label As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''TaskSubmitButton control.
+    '''SubmitButton control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TaskSubmitButton As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents SubmitButton As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Feedback1 control.
+    '''FeedbackLabel control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Feedback1 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents FeedbackLabel As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''PreviousPageButton control.

@@ -4,19 +4,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head id="Head1" runat="server">
     <title></title>
+    
     <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+   
+        
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-         <!-- jQuery library -->
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-         <!-- Latest compiled JavaScript -->
-         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
 </head>
 <body>
     <form id="Form1" runat="server">
@@ -51,9 +53,7 @@
         
         <div class ="row"> 
             <div class = "col-md-4">
-            <ul class="list-group">
-         
-          
+            <ul class="list-group" style="text-align:center">
             <li class="list-group-item"><a href="IntroToSQL.aspx">Introduction To SQL</a></li>
             <li class="list-group-item"><a href="Syntax.aspx">Syntax</a></li>
             <li class="list-group-item"><a href="select.aspx">Select</a></li>
@@ -64,6 +64,10 @@
             <li class="list-group-item"><a href="InsertInto.aspx">Insert Into</a></li>
             <li class="list-group-item"><a href="Update.aspx">Update</a></li>
             <li class="list-group-item"><a href="Delete.aspx">Delete</a></li>
+                <li class="list-group-item">
+                    <asp:Button ID="BeginQuizButton" runat="server" PostBackUrl="~/Attention.aspx" 
+                        Text="Start SQL Quiz" Width="119px" />
+                </li>
                    
           
 </ul>

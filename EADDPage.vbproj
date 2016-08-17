@@ -91,6 +91,8 @@
     <Content Include="AndOr.aspx" />
     <Content Include="App_Data\ASPNetDB.mdb" />
     <Content Include="App_Data\EADDProject.mdb" />
+    <Content Include="App_Data\EADDProject2.mdb" />
+    <Content Include="Attention.aspx" />
     <Content Include="css\animate.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\cards.css" />
@@ -209,6 +211,13 @@
     </Compile>
     <Compile Include="AndOr.aspx.vb">
       <DependentUpon>AndOr.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Attention.aspx.designer.vb">
+      <DependentUpon>Attention.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Attention.aspx.vb">
+      <DependentUpon>Attention.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.vb">
@@ -484,7 +493,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>61708</DevelopmentServerPort>
+          <DevelopmentServerPort>3721</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

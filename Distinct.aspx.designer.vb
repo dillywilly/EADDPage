@@ -14,40 +14,22 @@ Option Explicit On
 Partial Public Class Distinct
 
     '''<summary>
-    '''DisplayID control.
+    '''ActivityLabel control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents DisplayID As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents ActivityLabel As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''ContentID control.
+    '''ActivityTextBox control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents ContentID As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''TaskLabelID control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents TaskLabelID As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''TaskTextBox control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents TaskTextBox As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents ActivityTextBox As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''TaskSubmitButton control.
@@ -59,13 +41,13 @@ Partial Public Class Distinct
     Protected WithEvents TaskSubmitButton As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Feedback1 control.
+    '''FeedbackLabel control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Feedback1 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents FeedbackLabel As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''PreviousPageButton control.
@@ -84,4 +66,49 @@ Partial Public Class Distinct
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents NextPageButton As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''AnswerHF control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents AnswerHF As Global.System.Web.UI.WebControls.HiddenField
+
+    '''<summary>
+    '''ExecuteHF control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ExecuteHF As Global.System.Web.UI.WebControls.HiddenField
+
+    '''<summary>
+    '''GridViewPanel control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents GridViewPanel As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''SQLResultsGrid control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents SQLResultsGrid As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''CustomerGrid control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents CustomerGrid As Global.System.Web.UI.WebControls.AccessDataSource
 End Class

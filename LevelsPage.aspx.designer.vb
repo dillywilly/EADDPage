@@ -11,68 +11,50 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Site
+Partial Public Class WebForm5
 
     '''<summary>
-    '''Head1 control.
+    '''UnitIDHF control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Head1 As Global.System.Web.UI.HtmlControls.HtmlHead
+    Protected WithEvents UnitIDHF As Global.System.Web.UI.WebControls.HiddenField
 
     '''<summary>
-    '''HeadContent control.
+    '''DisplayID control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents HeadContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents DisplayID As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Form1 control.
+    '''ContentID control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+    Protected WithEvents ContentID As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''HeadLoginView control.
+    '''BackButton control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents HeadLoginView As Global.System.Web.UI.WebControls.LoginView
+    Protected WithEvents BackButton As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''NavigationMenu control.
+    '''NextButton control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents NavigationMenu As Global.System.Web.UI.WebControls.Menu
-
-    '''<summary>
-    '''BeginQuizButton control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents BeginQuizButton As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''MainContent control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents MainContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents NextButton As Global.System.Web.UI.WebControls.Button
 End Class
