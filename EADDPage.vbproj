@@ -88,7 +88,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="AndOr.aspx" />
     <Content Include="App_Data\ASPNetDB.mdb" />
     <Content Include="App_Data\EADDProject.mdb" />
     <Content Include="App_Data\EADDProject2.mdb" />
@@ -131,7 +130,6 @@
     <Content Include="images\person_7.jpg" />
     <Content Include="images\person_8.jpg" />
     <Content Include="images\person_9.jpg" />
-    <Content Include="InsertInto.aspx" />
     <Content Include="IntroToSQL.aspx" />
     <Content Include="js\images\full_1.jpg" />
     <Content Include="js\images\full_2.jpg" />
@@ -173,7 +171,7 @@
     <Content Include="js\respond.min.js" />
     <Content Include="js\wow.min.js" />
     <Content Include="Login.aspx" />
-    <Content Include="OrderBy.aspx" />
+    <Content Include="practice.aspx" />
     <Content Include="QuizPage.aspx" />
     <Content Include="Register2.aspx" />
     <Content Include="results.aspx" />
@@ -185,7 +183,6 @@
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
     <Content Include="Syntax.aspx" />
-    <Content Include="Update.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -204,13 +201,6 @@
     </Compile>
     <Compile Include="About.aspx.vb">
       <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="AndOr.aspx.designer.vb">
-      <DependentUpon>AndOr.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AndOr.aspx.vb">
-      <DependentUpon>AndOr.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Attention.aspx.designer.vb">
@@ -243,13 +233,6 @@
     </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="InsertInto.aspx.designer.vb">
-      <DependentUpon>InsertInto.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="InsertInto.aspx.vb">
-      <DependentUpon>InsertInto.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="IntroToSQL.aspx.designer.vb">
       <DependentUpon>IntroToSQL.aspx</DependentUpon>
@@ -284,11 +267,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="OrderBy.aspx.designer.vb">
-      <DependentUpon>OrderBy.aspx</DependentUpon>
+    <Compile Include="practice.aspx.designer.vb">
+      <DependentUpon>practice.aspx</DependentUpon>
     </Compile>
-    <Compile Include="OrderBy.aspx.vb">
-      <DependentUpon>OrderBy.aspx</DependentUpon>
+    <Compile Include="practice.aspx.vb">
+      <DependentUpon>practice.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="QuizPage.aspx.designer.vb">
@@ -338,13 +321,6 @@
     </Compile>
     <Compile Include="Syntax.aspx.vb">
       <DependentUpon>Syntax.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Update.aspx.designer.vb">
-      <DependentUpon>Update.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Update.aspx.vb">
-      <DependentUpon>Update.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Where.aspx.designer.vb">

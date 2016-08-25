@@ -199,26 +199,6 @@
         &nbsp;</p>
 
 
-        <div class="well">
-               <asp:Label ID="DisplayID" runat="server" Text=""></asp:Label>
-               <br />
-             <asp:Label ID="ContentID" runat="server"></asp:Label>
-               <br />
-           
-        </div>
-        <div class="well"> 
-
-           <asp:Label ID="TaskLabelID" runat="server" Text=""></asp:Label>
-             <br />
-           <asp:TextBox ID="TaskTextBox" runat="server" Width="361px"></asp:TextBox>
-           &nbsp;<asp:Button ID="TaskSubmitButton" runat="server" Text="Submit" />
-&nbsp;<asp:Label ID="Feedback1" runat="server" Text=""></asp:Label>
-             <br />
-            <br />
-             <br />
-        </div>
-
-     
 
        
  

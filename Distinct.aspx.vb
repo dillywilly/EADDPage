@@ -4,6 +4,7 @@
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
         AnswerHF.Value = "SELECT DISTINCT City FROM Customers;"
+
         If Not (IsPostBack) Then
             ExecuteHF.Value = True
         End If
@@ -12,13 +13,25 @@
             If Not (IsPostBack) Then
                 ActivityTextBox.Text = "Select * From Customers;"
             End If
-            Dim SqlQuery As String = ActivityTextBox.Text
-            CustomerGrid.DataSourceMode = SqlDataSourceMode.DataReader
-            CustomerGrid.SelectCommand = SqlQuery
-            SQLResultsGrid.DataSource = CustomerGrid
-            SQLResultsGrid.AutoGenerateColumns = True
-            SQLResultsGrid.DataBind()
+
+            Try
+                'try these codes
+                Dim sqlQuery As String = ActivityTextBox.Text
+                CustomerGrid.DataSourceMode = SqlDataSourceMode.DataReader
+                CustomerGrid.SelectCommand = SqlQuery
+                SQLResultsGrid.DataSource = CustomerGrid
+                SQLResultsGrid.AutoGenerateColumns = True
+                SQLResultsGrid.DataBind()
+
+            Catch ex As Exception
+                'if any error do this
+
+            End Try
+
+
         End If
+
+
 
     End Sub
 
@@ -33,5 +46,14 @@
             FeedbackLabel.Text = "Please try again."
             ExecuteHF.Value = False
         End If
+
+        'only if the feedback label show "great job! then the user can see the next page button
+        If FeedbackLabel.Text = "Great Job!" Then
+            NextPageButton.Visible = True
+        End If
+
+
     End Sub
+
+  
 End Class

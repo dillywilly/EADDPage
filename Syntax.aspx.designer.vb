@@ -14,60 +14,6 @@ Option Explicit On
 Partial Public Class Syntax
 
     '''<summary>
-    '''DisplayID control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents DisplayID As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''ContentID control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ContentID As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''TaskLabelID control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents TaskLabelID As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''TaskTextBox control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents TaskTextBox As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''TaskSubmitButton control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents TaskSubmitButton As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''Feedback1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Feedback1 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''PreviousPageButton control.
     '''</summary>
     '''<remarks>

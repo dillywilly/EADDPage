@@ -120,4 +120,13 @@ Partial Public Class QuizPage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents number As Global.System.Web.UI.WebControls.HiddenField
+
+    '''<summary>
+    '''totalscore control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents totalscore As Global.System.Web.UI.WebControls.HiddenField
 End Class

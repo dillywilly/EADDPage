@@ -44,6 +44,9 @@
     <p>
         <asp:HiddenField ID="number" runat="server" Value="0" />
     </p>
+<p>
+        <asp:HiddenField ID="totalscore" runat="server" Value="0" />
+    </p>
     <p>
         &nbsp;</p>
 </asp:Content>

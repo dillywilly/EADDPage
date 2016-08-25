@@ -6,7 +6,7 @@
 You are about to begin a Quiz.<br />
 Please be advised that this quiz will be based on all the SQL topics.<br />
 To begin Quiz click here ------&gt;&nbsp;&nbsp;
-<asp:Button ID="BeginQuizButton" runat="server" PostBackUrl="~/QuizPage.aspx" 
+<asp:Button ID="BeginQuizButton" runat="server" 
     Text="Begin Quiz" />
 <br />
 Or return by selecting an SQL topic in the list provided to the left.

@@ -58,7 +58,8 @@
                 <div id="demo2" class="collapse">
                     This Level delves into deeper than the previous. It covers Tables, Keys, indexes, constraints and many other topics that are crucial in SQL knowledge development.
                 </div>
-                <asp:Button ID="Beginbutton2" runat="server" Text="Begin" PostBackUrl="~/AndOr.aspx" />
+                <asp:Button ID="Beginbutton2" runat="server" Text="Begin" 
+                    PostBackUrl="~/Select.aspx" />
                 <br />
                 <br />
             </div>
@@ -67,27 +68,10 @@
                 <div id="demo3" class="collapse">
                     This level covers the advanced functions and features are useful in the repertoire of an SQL programmer. 
                 </div>
-                <asp:Button ID="Beginbutton3" runat="server" Text="Begin" PostBackUrl="~/InsertInto.aspx" />
+                <asp:Button ID="Beginbutton3" runat="server" Text="Begin" 
+                    PostBackUrl="~/Where.aspx" />
                 <br />
                 <br />
             </div>
-    
-				
-	<div class="fh5co-testimonial-style-2">
-			<div class="container">
-				<div class="row p-b">
-					</div>
-				<div class="row">
-					
-					<div class="col-md-4 col-sm-6 col-xs-12">
-						                
-
-					<div class="clearfix visible-sm-block">
-                    
-                    </div>
-
-				</div>
-			</div>	
-		</div>
-
+  
 </asp:Content>

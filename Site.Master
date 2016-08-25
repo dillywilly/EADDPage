@@ -6,10 +6,12 @@
     <title></title>
     
     <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
-   
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
         
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -22,6 +24,7 @@
 </head>
 <body>
     <form id="Form1" runat="server">
+    <div class = "container">
     <div class="page">
         <div class="header">
             <div class="title">
@@ -31,10 +34,7 @@
             </div>
             <div class="loginDisplay">
                 <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
-                    <AnonymousTemplate>
-                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
-                    </AnonymousTemplate>
-                    <LoggedInTemplate>
+                  <LoggedInTemplate>
                         Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
                         [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
                     </LoggedInTemplate>
@@ -49,38 +49,31 @@
                 </asp:Menu>
             </div>
         </div>
-        <div class="main">
         
-        <div class ="row"> 
-            <div class = "col-md-4">
-            <ul class="list-group" style="text-align:center">
-            <li class="list-group-item"><a href="IntroToSQL.aspx">Introduction To SQL</a></li>
-            <li class="list-group-item"><a href="Syntax.aspx">Syntax</a></li>
-            <li class="list-group-item"><a href="select.aspx">Select</a></li>
-            <li class="list-group-item"><a href="Distinct.aspx">Distinct</a></li>
-            <li class="list-group-item"><a href="Where.aspx">Where</a></li>
-            <li class="list-group-item"><a href="AndOr.aspx">And & Or</a></li>
-            <li class="list-group-item"><a href="OrderBy.aspx">Order By</a></li>
-            <li class="list-group-item"><a href="InsertInto.aspx">Insert Into</a></li>
-            <li class="list-group-item"><a href="Update.aspx">Update</a></li>
-            <li class="list-group-item"><a href="Delete.aspx">Delete</a></li>
-                <li class="list-group-item">
-                    <asp:Button ID="BeginQuizButton" runat="server" PostBackUrl="~/Attention.aspx" 
+        <div class="main">
+            <div class ="row"> 
+                <div class = "col-md-4">
+                <ul class="list-group" style="text-align:center">
+                    <li class="list-group-item"><a href="IntroToSQL.aspx">Introduction To SQL</a></li>
+                    <li class="list-group-item"><a href="Syntax.aspx">Syntax</a></li>
+                    <li class="list-group-item"><a href="select.aspx">Select</a></li>
+                    <li class="list-group-item"><a href="Distinct.aspx">Distinct</a></li>
+                    <li class="list-group-item"><a href="Where.aspx">Where</a></li>
+                    <li class="list-group-item"><a href="Delete.aspx">Delete</a></li>
+                    <li class="list-group-item">
+                        <asp:Button ID="BeginQuizButton" runat="server" PostBackUrl="~/Attention.aspx" 
                         Text="Start SQL Quiz" Width="119px" />
-                </li>
-                   
-          
-</ul>
+                    </li>
+                </ul>
+                </div>
+                <div class = "col-md-8">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+                </div>
             </div>
-            <div class = "col-md-8">
-
-            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
         </div>
-        </div>
-
+    
+    <div class="footer">   </div>  
     </div>
-    <div class="footer">
-      </div>  
     </div>
     </form>
 </body>

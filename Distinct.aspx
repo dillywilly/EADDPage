@@ -54,16 +54,24 @@
     
     
     <div class="w3-example" style="box-sizing: border-box; padding: 0.01em 16px; margin: 20px 0px; box-shadow: rgba(0, 0, 0, 0.156863) 0px 2px 4px 0px, rgba(0, 0, 0, 0.117647) 0px 2px 10px 0px !important; color: rgb(0, 0, 0); font-family: Verdana, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; line-height: 22.5px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(241, 241, 241);">
+        <div class="w3-code notranslate" style="box-sizing: border-box; font-family: Consolas, &quot;courier new&quot;; font-size: 16px; line-height: 1.4; width: auto; padding: 8px 12px; border-left: 4px solid rgb(76, 175, 80); word-wrap: break-word; margin: 20px 0px; border-top-color: rgb(76, 175, 80); border-right-color: rgb(76, 175, 80); border-bottom-color: rgb(76, 175, 80); background-color: rgb(255, 255, 255);">
+            <br />
         <h3 style="box-sizing: border-box; font-family: &quot;Segoe UI&quot;, Arial, sans-serif; font-size: 24px; font-weight: 400; margin: 10px 0px;">
             Example
         </h3>
-        <div class="w3-code notranslate" style="box-sizing: border-box; font-family: Consolas, &quot;courier new&quot;; font-size: 16px; line-height: 1.4; width: auto; padding: 8px 12px; border-left: 4px solid rgb(76, 175, 80); word-wrap: break-word; margin: 20px 0px; border-top-color: rgb(76, 175, 80); border-right-color: rgb(76, 175, 80); border-bottom-color: rgb(76, 175, 80); background-color: rgb(255, 255, 255);">
-            SELECT DISTINCT City FROM Customers;
+            SELECT DISTINCT City FROM Customers;<br />
             <br />
+               <br />
+               <h3 class="text-left">
+                   <strong>Select Distinct Activity</strong> </h3>
             <br />
             <div class="well">
-                <br />
-                Please enter the Code given in the example to test the Select Distinct code
+                <p class="MsoNormal">
+                    <span><strong>Instruction</strong> - Below there is a table that displays 
+                    customers and their individual details.<br />
+                    Please copy the code above in the example and paste it into the space provided.<o:p></o:p></span></p>
+                <asp:Label ID="ActivityLabel0" runat="server" 
+                    Text="SELECT DISTINCT City FROM Customers;" Visible="False"></asp:Label>
                 <br />
             </div>
         
@@ -82,9 +90,10 @@
         
             <asp:Button ID="PreviousPageButton" runat="server" Text="Previous Page" PostBackUrl="~/Select.aspx" />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="NextPageButton" runat="server" Text="Next Page" PostBackUrl="~/Where.aspx" />
+            <asp:Button ID="NextPageButton" runat="server" Text="Next Page" 
+                PostBackUrl="~/Where.aspx" Visible="False" />
             <asp:HiddenField ID="AnswerHF" runat="server" />
-            <asp:HiddenField ID="ExecuteHF" runat="server" />
+            <asp:HiddenField ID="ExecuteHF" runat="server" Value="true" />
             <br />
             <br />
             <asp:Panel ID="GridViewPanel" runat="server" ScrollBars="Horizontal" HorizontalAlign="Center">

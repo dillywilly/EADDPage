@@ -94,6 +94,46 @@ first child of the left and right table columns */
     border: 1px solid #496077;
 }
 
+ /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) 
+    {
+           .page
+            {
+                width: 768px;
+                background-color: #fff;
+                margin: 20px auto 0px auto;
+                border: 1px solid #496077;
+            }
+    }
+    
+ /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) 
+    {
+        .page
+            {
+                width: 300px;
+                background-color: #fff;
+                margin: 20px auto 0px auto;
+                border: 1px solid #496077;
+            }
+    }
+    
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) 
+    {
+        
+        .page
+            {
+                width: 420px;
+                background-color: #fff;
+                margin: 20px auto 0px auto;
+                border: 1px solid #496077;
+            }
+    }
+
 .header
 {
     position: relative;
